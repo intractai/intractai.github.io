@@ -30,6 +30,19 @@ h4 {
     margin: 30px; /* Add margin for better spacing */
     margin-bottom: 30px; /* Add margin for better spacing */
 }
+.cofounder img {
+    max-width: 100%;
+    height: auto;
+    min-height: 100px; /* Increase this value */
+    min-width: 100px; /* Add this line */
+}
+/* Responsive layout - makes the menu and the content stack on top of each other */
+@media (max-width: 800px) {
+    .cofounder {
+        width: 100%; /* Make it stack on small screens */
+        margin: 10px 0; /* Adjust margin */
+    }
+}
 header{
     display: flex;
     flex-direction: row;
@@ -131,7 +144,7 @@ footer{
     width: 100%;
     background-color: #2e2c2c;
     color: white;
-    text-align: right;
+    text-align: center; /* Change this line */
 }
 
 article{
