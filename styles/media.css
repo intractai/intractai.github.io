@@ -22,8 +22,10 @@
         width: 100px;
     }
 
-    img{
-        display: none;
+    img {
+        display: inline-block; /* or inline, inline-block, as per your design */
+        max-width: 100%; /* Optionally, ensure images are responsive */
+        height: auto; /* Maintain aspect ratio */
     }
 
     ul{

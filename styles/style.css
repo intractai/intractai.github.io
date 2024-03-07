@@ -101,6 +101,7 @@ p{
 img {
     max-width: 100%;
     height: auto;
+    min-width: 50px; /* Add this line */
 }
 
 form{
@@ -117,8 +118,20 @@ form [type="submit"]{
     font-weight: bold;
     font-size: 15px;
 }
+form [type="button"]{
+    height: 50px;
+    width: 50%;
+    background-color: #ED4F5C;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
 
 form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+form [type="button"]:hover{
     cursor: pointer;
 }
 
