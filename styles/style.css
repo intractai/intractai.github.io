@@ -73,6 +73,13 @@ h4 {
         margin: 10px 0; /* Adjust margin */
         padding: 0 15px; /* Optional: Add some padding for better readability */
     }
+
+    .form input[type="button"] {
+        font-size: 14px;
+        padding: 10px;
+        white-space: normal;
+        word-wrap: break-word;
+    }
 }
 header{
     display: flex;
